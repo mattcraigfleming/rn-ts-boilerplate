@@ -1,16 +1,12 @@
 import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
+import Fluid from './components/Fluid/Fluid';
 
 const App = () => {
   return (
-    <>
-      <View style={styles.sectionContainer}>
-        <Text style={styles.sectionTitle}>Learn More</Text>
-        <Text style={styles.sectionDescription}>
-          Read the docs to discover what to do next:
-        </Text>
-      </View>
-    </>
+    <View>
+      <Fluid />
+    </View>
   );
 };
 
